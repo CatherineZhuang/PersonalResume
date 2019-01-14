@@ -43,9 +43,9 @@ h5 {
 #pfont {
   font-family: 'Source Sans Pro';
   font-size: 20px;
-  color: #5B94D4;
-  margin-top: 3%;
-  margin-bottom: 1%;
+  color: #5b94d4;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #container {
@@ -53,47 +53,91 @@ h5 {
   margin: 0;
 }
 
-#activity {
-  width: 300px;
+#time {
+  width: 180px;
   float: left;
 }
 
-#time {
-  width: 300px;
+#activity {
+  width: 270px;
   margin-left: 150px;
 }
 
-#item {
+#entry {
   font-family: 'Source Sans Pro';
-  font-size: 16px;
+  font-size: 15px;
+  display: absolute;
+  width: 350px;
+  margin-left: 3em;
 }
 
-
-#entry {
+#interestEntry {
   font-family: 'Source Sans Pro';
   font-size: 16px;
   display: inline;
 }
 
+#projectEntry {
+  display: flex;
+  align-items: top;
+  margin-bottom: 4em;
+  width: 750px;
+}
+
 #cv {
-  margin-bottom: 45px;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
 
 #project {
-  margin-bottom: 45px;
+  margin-bottom: 5em;
+}
+
+#interest {
+  margin-bottom: 5em;
 }
 
 #contact {
   display: inline;
-  margin-right: 5em;
+}
+
+#item,
+#item1,
+#item2,
+#item3,
+#item4 {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  margin-bottom: 1em;
+
+  a {
+    color: black;
+    border-bottom: 1px dotted black;
+    background-color: transparent;
+    text-decoration: none;
+
+    &:visited {
+      color: black;
+      border-bottom: 1px dotted black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      border-bottom: 3px solid #5b94d4;
+      background-color: transparent;
+      text-decoration: none;
+    }
+  }
 }
 
 a {
-  color: black; 
+  color: black;
   border-bottom: 1px dotted black;
-  background-color: transparent; 
+  background-color: transparent;
   text-decoration: none;
-  
+
   &:visited {
     color: black;
     border-bottom: 1px dotted black;
@@ -103,7 +147,7 @@ a {
 
   &:hover {
     transition: all 0.3s ease-in-out;
-    border-bottom: 3px solid #5B94D4;
+    border-bottom: 3px solid #5b94d4;
     background-color: transparent;
     text-decoration: none;
   }
@@ -112,4 +156,41 @@ a {
 #myIcon {
   margin-left: 0%;
   margin-right: 2%;
+}
+
+#vip {
+  height: 260px;
+  width: 350px;
+}
+
+#note {
+  height: 350px;
+  width: 200px;
+}
+
+#love {
+  height: 200px;
+  width: 350px;
+}
+
+#content {
+  color: #778899;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+}
+
+#projectTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #5b94d4;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
 }

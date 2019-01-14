@@ -5,10 +5,10 @@ class Interest extends Component {
     return (
         <div id='interest'>
           <p id="pfont">My Interests</p>
-          <div id='entry'>Travel · </div>
-          <div id='entry'>Yoga · </div>
-          <div id='entry'>Basketball · </div>
-          <div id='entry'>Flute </div>
+          <div id='interestEntry'>Travel · </div>
+          <div id='interestEntry'>Yoga · </div>
+          <div id='interestEntry'>Basketball · </div>
+          <div id='interestEntry'>Flute </div>
         </div>
     );
   }
