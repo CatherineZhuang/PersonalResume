@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/PersonalResume/static/media/love.9ba2c748.png"
   },
   {
-    "revision": "377d9fcc01a11bd235f0cb01c8a919ac",
+    "revision": "23582d335156410d7d3317b70cb092e8",
     "url": "/PersonalResume/index.html"
   }
 ];
